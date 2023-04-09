@@ -8,4 +8,9 @@ def solution(x: np.array, y: np.array) -> bool:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return ... # Ваш ответ, True или False
+    res = False
+    if x[0] == y[0] and x[1] == y[1] and x[2] == y[2]:
+        res = False
+    else:
+        res = True
+    return res # Ваш ответ, True или False
